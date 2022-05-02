@@ -1,0 +1,33 @@
+
+#container{
+    display:flex;
+}
+
+
+#sidebar{
+    border:1px solid black;
+    height:400px;
+    width:300px;
+
+}
+
+#sidebar>div>button{
+    background-color: teal;
+    width:250px;
+    margin-left: 20px;
+    margin-bottom: 25px;
+    font-size: 25px;
+    border:none
+
+}
+#results>div{
+    display:flex;
+    border:1px solid blue;
+    margin-top: 10px;
+    margin-left: 10px;
+    
+}
+#results>div>img{
+    height:100px;
+    width:100px;
+}
